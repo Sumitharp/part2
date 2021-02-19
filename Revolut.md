@@ -20,7 +20,7 @@ A customer can open an account within couple of minutes by downloading the app a
 
 Revolut also launched a commission-free stocking trading app like Robinhood last year. 
 
-##Technology
+## Technology:
 Revolut built its core infrastructure with Google Cloud Platform's (GCP) Compute Engine virtual machines. With Cloud Identity and Access Management, Revolut could easily set up highly secure, separate instances for its main infrastructure and its application. The company also made extensive use of Cloud APIs in conjunction with a third-party automation tool to achieve fully automated infrastructure-as-code provisioning and management of the platform. (Google Case Study)
 
 Revolut's technology is based predominantly on Java 8 on the backend and AngularJS on the frontend. They are also planning to introduce Scala for new components.They offer a minimalist approach in order to use external frameworks, with emphasis on maintainability and fast turnaround with TDD, DDD, and Continuous Integration & Delivery. Their projects include building the mobile APIs, developing microservices to evolve the architecture, and perfecting a number of systems that the business depends on – risk management, fraud detection, or payment processing, to name a few. Revolut takes advantage of Kotlin as well to build a multiplatform architecture for iOS and Android. In addition to writing in Kotlin, they also include Android SDK and RxJava serve as internal libraries and frameworks. As for data storage they use SQLite with Room OM. However, the company continues to use JavaScript, HTML, Python, TypeScript, Groovy, C++ and Clojure within their different areas of work. By using the RecyclerView-based screen layout they establish and maintain UI elements. In this way when developers need to adjust to a different style, they take an already completed element and attach it to the RecyclerView. This approach is proven to be quite beneficial during bigger redesigns. The only changes were made with the UI elements and mappers while the UX logic was left untouched.(Stackshare, jobs.lever)
@@ -33,7 +33,7 @@ Revolut can only be used through mobile app and is not available on computers as
  
 Some of competitors in this Fintech space are NuBank (Brazil), Atom Bank Plc (UK), Fidor Solutions AG (EU), Monzo Bank Limited (UK), Movencorp, Inc. (USA), MYbank (EU), Number26 GmbH(Germany), Simple Finance Technology Corporation (taken over by BBVA), Tandem Bank (UK),UBank limited (Australia), WeBank (China). There are also single product or service companies which provide online disagreggrated services like Venmo/Paypal for payments, Mission Lane/Ollo for credit cards, Avant/Rocket loans for consumer loans, Affirm/Klarna for point-of-sale financing, Marcus by Goldman Sachs/Chime for deposits and debit cards. In the future, we will likely see that these single product companies start providing more services to their customers on the lines of traditional banks. There could also be mergers amongst the challenger banks and with traditional banks which want to provide services to their modern consumers.   
 
-## Results
+## Results:
 
 Revolut’s losses trebled in 2019 to £104.7 million, following a year of rapid growth mainly due to increase in staff by 1,628 , as well as launch in the US and Singapore. In 2019, revenue increased 3x to £162.7 million from £58.2 million. Gross margin improved to 39% in final quarter of 2019 up from 17% at the beginning of the year. Most of its revenue is generated from cut in the interchange fee paid to Mastercard, membership fees of its cards, and business accounts.
 
@@ -45,12 +45,12 @@ Key performance indicators:
 * Weekly active business: 321% increase since last reporting
 
 
-## Compared to Competition
+## Compared to Competition:
 
 Revolut has performed better as compared to its European Econiomic Area (EEA) rivals. Revolut's revenue is 2019 was ~£160 million compared to Monzo's £67 million and Starling £30 million. At the end of  2019, Revolut had 10 million customers far greater than 2.5 million of Monzo and 1 million of Starling. Further, Revolut's average contribution per customer was £24 compared to £21 (Monzo) and £20 (Starling). Revolut's total transaction volume was £65 billion in 2019 almost 5x more than Monzo. However, Revolut's customer base is half that of NuBank (Brazil) which is seen as a revolutionary bank in Latin America, especially in countries like Brazil where the interest rate is very high and traditional banks charge high fees on every transaction. Additionally, Revolut's competitor Chime in North America has a large customer base in US (8 million in 2020) with decent revenues and deposit base which the neo banks from EEA donot enjoy as they are still not primary accounts for most customers. There is also Sofi bank (USA) (2x Revolut's revenue) which generates most of its revenue from student loans and repayments.
 
 
-## Recommendations
+## Recommendations:
 
 Revolut can expand its horizons by servicing new geographies like Asia which are underbanked and have high mobile penetration.  
 
@@ -61,15 +61,15 @@ Sources:
 * https://www.revolut.com/en-US
 * https://monzo.com/
 * https://www.starlingbank.com/
-https://www.chime.com/
-https://en.wikipedia.org/wiki/Revolut
-https://www.lightico.com/blog/the-neobanks-are-coming-is-your-traditional-bank-ready/
-https://medium.com/revolut/under-the-hood-engineering-at-revolut-2dc183c04228
-https://www.researchandmarkets.com/reports/5118772/neo-and-challenger-bank-market-by-service-type?utm_source=BW&utm_medium=PressRelease&utm_code=vr6vnm&utm_campaign=1415707+-+Neo+and+Challenger+Bank+Market+to+Exhibit+a+CAGR+of+48.1%25+During+2020-2027&utm_exec=joca220prd
-https://www.businessofapps.com/data/revolut-statistics/
-https://craft.co/revolut/funding-rounds
-https://craft.co/nubank/competitors?competitors=nubank%2Catom-bank%2Cmonzo%2Cn26%2Cmonese%2Crevolut
-https://stackshare.io/companies/revolut
-https://wiredelta.com/how-was-revolut-developed/#:~:text=Revolut%20in%20technology&text=Their%20technology%20is%20based%20predominantly,introduce%20Scala%20for%20new%20components.
-https://soundcloud.com/wft/dan-westgarth-north-america-general-manager-for-revolut
+* https://www.chime.com/
+* https://en.wikipedia.org/wiki/Revolut
+* https://www.lightico.com/blog/the-neobanks-are-coming-is-your-traditional-bank-ready/
+* https://medium.com/revolut/under-the-hood-engineering-at-revolut-2dc183c04228
+* https://www.researchandmarkets.com/reports/5118772/neo-and-challenger-bank-market-by-service-type?utm_source=BW&utm_medium=PressRelease&utm_code=vr6vnm&utm_campaign=1415707+-+Neo+and+Challenger+Bank+Market+to+Exhibit+a+CAGR+of+48.1%25+During+2020-2027&utm_exec=joca220prd
+* https://www.businessofapps.com/data/revolut-statistics/
+* https://craft.co/revolut/funding-rounds
+* https://craft.co/nubank/competitors?competitors=nubank%2Catom-bank%2Cmonzo%2Cn26%2Cmonese%2Crevolut
+* https://stackshare.io/companies/revolut
+* https://wiredelta.com/how-was-revolut-developed/#:~:text=Revolut%20in%20technology&text=Their%20technology%20is%20based%20predominantly,introduce%20Scala%20for%20new%20components.
+* https://soundcloud.com/wft/dan-westgarth-north-america-general-manager-for-revolut
  
