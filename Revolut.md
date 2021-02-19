@@ -56,3 +56,20 @@ Revolut can expand its horizons by servicing new geographies like Asia which are
 
 Center for Resposible Lending in its Overdarft Fees 2020 report states that traditional banks charged $11 billion in overdraft fees in 2019. Revolut can provide overdraft facilites at little or no charge on debit card purchases like Chime currently does (upto $100) which will make it more appealing to many customers.  Further, Revolut can also enter the student loan market like Sofi. These students would later continue banking with Revolut and use more services as they join the workforce.
 
+
+Sources:
+https://www.revolut.com/en-US
+https://monzo.com/
+https://www.starlingbank.com/
+https://www.chime.com/
+https://en.wikipedia.org/wiki/Revolut
+https://www.lightico.com/blog/the-neobanks-are-coming-is-your-traditional-bank-ready/
+https://medium.com/revolut/under-the-hood-engineering-at-revolut-2dc183c04228
+https://www.researchandmarkets.com/reports/5118772/neo-and-challenger-bank-market-by-service-type?utm_source=BW&utm_medium=PressRelease&utm_code=vr6vnm&utm_campaign=1415707+-+Neo+and+Challenger+Bank+Market+to+Exhibit+a+CAGR+of+48.1%25+During+2020-2027&utm_exec=joca220prd
+https://www.businessofapps.com/data/revolut-statistics/
+https://craft.co/revolut/funding-rounds
+https://craft.co/nubank/competitors?competitors=nubank%2Catom-bank%2Cmonzo%2Cn26%2Cmonese%2Crevolut
+https://stackshare.io/companies/revolut
+https://wiredelta.com/how-was-revolut-developed/#:~:text=Revolut%20in%20technology&text=Their%20technology%20is%20based%20predominantly,introduce%20Scala%20for%20new%20components.
+https://soundcloud.com/wft/dan-westgarth-north-america-general-manager-for-revolut
+ 
