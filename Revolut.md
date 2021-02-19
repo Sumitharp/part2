@@ -58,7 +58,7 @@ Center for Resposible Lending in its Overdarft Fees 2020 report states that trad
 
 
 Sources:
-https://www.revolut.com/en-US
+(https://www.revolut.com/en-US)
 https://monzo.com/
 https://www.starlingbank.com/
 https://www.chime.com/
