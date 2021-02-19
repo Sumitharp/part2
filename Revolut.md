@@ -1,4 +1,4 @@
-# REVOLUT
+# REVOLUT  
 
 ## Overview and Origin
 
@@ -62,9 +62,9 @@ Center for Resposible Lending in its Overdarft Fees 2020 report states that trad
 
 Revolut has already launched crypto currency exchanges in Bitcoin, Bitcoin Cash, Ethereum, and Litcoin with more digital currencies expected soon. Unlike most crypto exchanges, when you sell crypto on Revolut, funds are immediately available to spend or transfer. This could be one of the major segments given the skyrocketing interest.
 
-Being in the banking and financial sector, Revolut has to continuously bolster its fraud detection system, risk management and compliance of regulatory framework. It is the key to its survival in this sector and any lapse could severely impact its operations.  
+Being in the banking and financial sector, Revolut has to continuously bolster its fraud detection systems, risk management and compliance of regulatory framework. It is the key to its survival in this sector and any lapse could severely impact its operations.  
 
-My recommendation for Revolut would be to continue generating customer AHA moment with technological advances, to expand to new geographies, provide traditional as well as new features intergarted seamlessly into its app.
+My recommendation for Revolut would be to continue generating customer AHA moment with technological advances, to expand to new geographies, provide traditional as well as new features intergarted seamlessly into its app while complying with the regulatory faramework.
 
 
 Sources:
