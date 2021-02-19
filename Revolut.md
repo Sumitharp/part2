@@ -2,7 +2,7 @@
 
 ## Overview and Origin
 
-Revolut was founded on 1 July 2015 by Nikolay Storonsky and Vlad Yatsenko. The company was originally based in Level39, a financial technology incubator in Canary Wharf, London. Revolut was initially launched in the UK and offered prepaid cards, multi currency exchange, international transfer to freelancers and Small and Medium Enterprises. 
+Revolut was founded on 1 July 2015 by Nikolay Storonsky and Vlad Yatsenko. The company was originally based in Level39, a financial technology incubator in Canary Wharf, London. Revolut was initially launched in the UK and offered prepaid cards, multi currency exchange, international transfer to freelancers and Small and Medium Enterprises. It obtained European Bank license in 2018. In addition, Revolut is authorized in the UK by the Financial Conduct Authority (FCA) under the Electronic Money Regulations 2011.
  
 Nilkolay Storonsky, who had master's in physics and economics, was a trader at Credit Suisse and Lehman Brothers prior to starting Revolut with Vlad Yatsenko, former Credit Suisse and Deutsche Bank developer. Storonsky realised that he was waisting hundreds of pounds on forex fees and commissions when he was travelling. When he found out that multi-currency card were not possible at that time, he decided to come up with a  solution.    
 
@@ -10,18 +10,22 @@ In 2016, the Revolut app registered 100,000 users and secured its first Series A
 
 ## Business Activities:
 
-Revolut initially gained popularity by issuing *prepaid cards* and allowing users to spend money in different currencies at inter bank exchange rates without paying high forex fees. It obtained European Bank license in 2018.In addition, Revolut is authorized in the UK by the Financial Conduct Authority (FCA) under the Electronic Money Regulations 2011.
+Revolut initially gained popularity by issuing *prepaid cards* and allowing users to spend money in different currencies at inter bank exchange rates without paying high forex fees. These are executed instantly between Europe, the US, Singapore, Japan, Australia amongst the 30+ countries.The AHA moment customers got from instant transfer with lesser clicks hooked them to use other products. 
 
-It has now evolved into new mobile app-based challenger bank which offers traditional banking services without costly overheads of physical branches. It currently provides personal banking services like early salary, pay and get paid, international transfers, Group bills, Budget and Analytics, Cards and Junior Acoounts, Crypto, Vaults, Saving Vaults. It provides individuals as well as business customers international bank transfers at the real exchange rates in major currencies and savings on hidden fees. These transfers are almost free and executed instantly between Europe, the US, Singapore, Japan, Australia amongst the 30+ countries.
- 
-Additionally, Revolut provides its business customers features like spending control with cards, automating expense bookkeeping by using business APIs and Partner apps.
+Revolut has now evolved into new mobile app-based challenger bank which offers traditional banking services without costly overheads of physical branches. A customer can open an account within couple of minutes by downloading the app and providing personal information and confirming identity compared to visit-and-wait in traditonal banks. Revolut issues a physical card as well as a mobile app generated card for immediate use. The app generated cards are suitable for one-time, online transactions which automatically regenerate after each transaction. Its own 'Sherlock Flask' app process transactions under 50ms to check for fraud while the merchant termial displays "Processing Payment" (Latency of 50 milliseconds or less is considered very good).Since its implementation Sherlock caught 96% of fradulent transactions and just 1c out of $100 was lost due to fraud.
 
-A customer can open an account within couple of minutes by downloading the app and providing personal information and confirming identity compared to visit-and-wait in traditonal banks. Revolut issues a physical card as well as a mobile app generated card for immediate use. The app generated cards are suitable for one-time, online transactions which automatically regenerate after each transaction. Revolut provides this extra layer of security for online transactions and protect against online card fraud. Traditional banks suffer as their legacy systems take a long time to upgrade and are impacted by digital frauds. 
+Revolut's personal banking services include early salary, pay and get paid, international transfers, Group bills, Budget and Analytics, Cards and Junior Acoounts, Crypto, Vaults, Saving Vaults. Additionally, its business customers enjoy features like spending control with cards, automating expense bookkeeping by using business APIs and Partner apps. Ease of use in the app enables Revolut to cross sell new products like investment, crypto vault, analytics.
 
 Revolut also launched a commission-free stocking trading app like Robinhood last year. 
 
 ## Technology:
-Revolut built its core infrastructure with Google Cloud Platform's (GCP) Compute Engine virtual machines. With Cloud Identity and Access Management, Revolut could easily set up highly secure, separate instances for its main infrastructure and its application. The company also made extensive use of Cloud APIs in conjunction with a third-party automation tool to achieve fully automated infrastructure-as-code provisioning and management of the platform. (Google Case Study)
+
+Nikolay Storonsky, CEO and Founder said about their vision:
+>“The reality is what we’re trying to achieve is [to] build a 10x better financial services company that is 10x >cheaper as well. The only way to do it is not building only one product, but building a platform with many products >on top of it.” 
+
+Hence, Revolut has built its own end-to-end banking platform (core features). This makes Revolut agile, since they understand their product stack they can introduce new features quickly without third party dependencies. 
+
+It built its core infrastructure with Google Cloud Platform's (GCP) Compute Engine virtual machines. With Cloud Identity and Access Management, Revolut could easily set up highly secure, separate instances for its main infrastructure and its application. The company also made extensive use of Cloud APIs in conjunction with a third-party automation tool to achieve fully automated infrastructure-as-code provisioning and management of the platform. (Google Case Study)
 
 Revolut's technology is based predominantly on Java 8 on the backend and AngularJS on the frontend. They are also planning to introduce Scala for new components.They offer a minimalist approach in order to use external frameworks, with emphasis on maintainability and fast turnaround with TDD, DDD, and Continuous Integration & Delivery. Their projects include building the mobile APIs, developing microservices to evolve the architecture, and perfecting a number of systems that the business depends on – risk management, fraud detection, or payment processing, to name a few. Revolut takes advantage of Kotlin as well to build a multiplatform architecture for iOS and Android. In addition to writing in Kotlin, they also include Android SDK and RxJava serve as internal libraries and frameworks. As for data storage they use SQLite with Room OM. However, the company continues to use JavaScript, HTML, Python, TypeScript, Groovy, C++ and Clojure within their different areas of work. By using the RecyclerView-based screen layout they establish and maintain UI elements. In this way when developers need to adjust to a different style, they take an already completed element and attach it to the RecyclerView. This approach is proven to be quite beneficial during bigger redesigns. The only changes were made with the UI elements and mappers while the UX logic was left untouched.(Stackshare, jobs.lever)
 
@@ -47,7 +51,7 @@ Key performance indicators:
 
 ## Compared to Competition:
 
-Revolut has performed better as compared to its European Econiomic Area (EEA) rivals. Revolut's revenue is 2019 was ~£160 million compared to Monzo's £67 million and Starling £30 million. At the end of  2019, Revolut had 10 million customers far greater than 2.5 million of Monzo and 1 million of Starling. Further, Revolut's average contribution per customer was £24 compared to £21 (Monzo) and £20 (Starling). Revolut's total transaction volume was £65 billion in 2019 almost 5x more than Monzo. However, Revolut's customer base is half that of NuBank (Brazil) which is seen as a revolutionary bank in Latin America, especially in countries like Brazil where the interest rate is very high and traditional banks charge high fees on every transaction. Additionally, Revolut's competitor Chime in North America has a large customer base in US (8 million in 2020) with decent revenues and deposit base which the neo banks from EEA donot enjoy as they are still not primary accounts for most customers. There is also Sofi bank (USA) (2x Revolut's revenue) which generates most of its revenue from student loans and repayments.
+Revolut has performed better as compared to its European Economic Area (EEA) rivals. Revolut's revenue is 2019 was ~£160 million compared to Monzo's £67 million and Starling £30 million. At the end of  2019, Revolut had 10 million customers far greater than 2.5 million of Monzo and 1 million of Starling. Further, Revolut's average contribution per customer was £24 compared to £21 (Monzo) and £20 (Starling). Revolut's total transaction volume was £65 billion in 2019 almost 5x more than Monzo. However, Revolut's customer base is half that of NuBank (Brazil) which is seen as a revolutionary bank in Latin America, especially in countries like Brazil where the interest rate is very high and traditional banks charge high fees on every transaction. Additionally, Revolut's competitor Chime in North America has a large customer base in US (8 million in 2020) with decent revenues and deposit base which the neo banks from EEA donot enjoy as they are still not primary accounts for most customers. There is also Sofi bank (USA) (2x Revolut's revenue) which generates most of its revenue from student loans and repayments.
 
 
 ## Recommendations:
@@ -56,6 +60,7 @@ Revolut can expand its horizons by servicing new geographies like Asia which are
 
 Center for Resposible Lending in its Overdarft Fees 2020 report states that traditional banks charged $11 billion in overdraft fees in 2019. Revolut can provide overdraft facilites at little or no charge on debit card purchases like Chime currently does (upto $100) which will make it more appealing to many customers.  Further, Revolut can also enter the student loan market like Sofi. These students would later continue banking with Revolut and use more services as they join the workforce.
 
+Revolut has already launched crypto currency exchanges in Bitcoin, Bitcoin Cash, Ethereum, and Litcoin with more digital currencies expected soon. Unlike most crypto exchanges, when you sell crypto on Revolut, funds are immediately available to spend or transfer. This could be one of the major segments given the skyrocketing interest. 
 
 Sources:
 * https://www.revolut.com/en-US
@@ -72,4 +77,5 @@ Sources:
 * https://stackshare.io/companies/revolut
 * https://wiredelta.com/how-was-revolut-developed/#:~:text=Revolut%20in%20technology&text=Their%20technology%20is%20based%20predominantly,introduce%20Scala%20for%20new%20components.
 * https://soundcloud.com/wft/dan-westgarth-north-america-general-manager-for-revolut
- 
+* https://medium.com/revolut/building-a-state-of-the-art-card-fraud-detection-system-in-9-months-96463d7f652d
+* https://youtu.be/Vku-FDTZYAo
